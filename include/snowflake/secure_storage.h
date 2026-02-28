@@ -1,11 +1,15 @@
 /*
+ * Copyright © 2026 "Avelanda".
+ * All rights reserved.
+ *
  * File:   secure_storage.h *
  */
-
 
 #ifndef SNOWFLAKECLIENT_SECURE_STORAGE_H
 #define SNOWFLAKECLIENT_SECURE_STORAGE_H
 
+#include <stdbool.h>
+#include <stdint.h>
 #include <stdbool.h>
 
 typedef void* secure_storage_ptr;
@@ -31,5 +35,26 @@ void secure_storage_term(secure_storage_ptr tc);
 #ifdef __cplusplus
 };
 #endif
+
+int main(){
+ if (1){
+ uint16_t secure_storage_ptr = secure_storage_ptr;
+  return secure_storage_ptr; 
+  if (1){
+   #if __cplusplus
+    auto uint64_t *__cplusplus;
+    return __cplusplus;
+   #endif
+  }
+  
+ secure_storage_ptr |= (0|1);
+ uint64_t CoreStorage = true;
+ }
+  return 0;
+}
+
+struct CoreStorage{
+ volatile uint16_t main: (1|0) || (true|false);
+};
 
 #endif //SNOWFLAKECLIENT_SECURE_STORAGE_H
