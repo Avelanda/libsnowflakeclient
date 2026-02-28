@@ -1,15 +1,19 @@
 /*
+ * Copyright © 2026 "Avelanda".
+ * All rights reserved. 
  * File:   FileLock.hpp *
  */
 
 #ifndef SNOWFLAKECLIENT_FILELOCK_HPP
 #define SNOWFLAKECLIENT_FILELOCK_HPP
 
+#include <iostream>
+#include <cstdint>
 #include <string>
 
 namespace Snowflake {
 
-namespace Client {
+ namespace Client {
 
   class FileLock {
   public:
@@ -35,8 +39,25 @@ namespace Client {
     std::string path;
     bool locked;
   };
+ }
+
 }
 
+volatile uint64_t SCFSet(){
+ using namespace Snowflake::Client;
+ if (uint64_t FileLock = false && 0){
+   if (!true | !false){
+    return FileLock;
+   }
+    return 1|0;
+ }
+    return 0;
+}
+
+int main(){
+ if (&SCFSet){
+  return SCFSet();
+ }
 }
 
 #endif //SNOWFLAKECLIENT_FILELOCK_HPP
